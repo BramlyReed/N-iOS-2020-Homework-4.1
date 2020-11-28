@@ -65,8 +65,8 @@
                                     <action selector="newscreen:" destination="bPt-j6-yCG" eventType="touchUpInside" id="PcD-GJ-DZf"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите текст" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vef-DZ-AoP">
-                                <rect key="frame" x="76.5" y="425.5" width="222" height="45.5"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите текст" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vef-DZ-AoP">
+                                <rect key="frame" x="96" y="425.5" width="222" height="45.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="systemPinkColor"/>
                                 <constraints>
@@ -82,7 +82,6 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
                             <constraint firstItem="dFa-SJ-PLc" firstAttribute="trailing" secondItem="XPd-qh-9gI" secondAttribute="trailing" constant="10" id="2UL-eF-dhV"/>
-                            <constraint firstItem="dFa-SJ-PLc" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Vef-DZ-AoP" secondAttribute="trailing" constant="76.5" id="82d-2O-0nQ"/>
                             <constraint firstItem="XPd-qh-9gI" firstAttribute="leading" secondItem="dFa-SJ-PLc" secondAttribute="leading" constant="10" id="8R9-ZO-z7P"/>
                             <constraint firstItem="Vef-DZ-AoP" firstAttribute="centerY" secondItem="neE-Am-Sgq" secondAttribute="centerY" id="9ha-MX-aw9"/>
                             <constraint firstItem="dFa-SJ-PLc" firstAttribute="bottom" secondItem="XPd-qh-9gI" secondAttribute="bottom" constant="10" id="KUi-23-Q9W"/>
