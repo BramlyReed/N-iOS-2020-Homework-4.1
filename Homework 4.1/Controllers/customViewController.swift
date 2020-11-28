@@ -28,6 +28,7 @@ class customViewController: UIViewController {
             
         }
         present(VC, animated: true)
+        
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first as? UITouch?{

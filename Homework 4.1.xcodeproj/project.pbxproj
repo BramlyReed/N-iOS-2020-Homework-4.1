@@ -14,6 +14,8 @@
 		7906B31A2570EE6C00836900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7906B3182570EE6C00836900 /* LaunchScreen.storyboard */; };
 		7906B32D2571025800836900 /* customViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B32C2571025800836900 /* customViewController.swift */; };
 		7906B3522571099A00836900 /* pushedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B3512571099A00836900 /* pushedController.swift */; };
+		794668992572B4A0007D672F /* secondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794668982572B4A0007D672F /* secondController.swift */; };
+		7946689C2572B4B4007D672F /* thirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7946689B2572B4B4007D672F /* thirdController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7906B31B2570EE6C00836900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7906B32C2571025800836900 /* customViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewController.swift; sourceTree = "<group>"; };
 		7906B3512571099A00836900 /* pushedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushedController.swift; sourceTree = "<group>"; };
+		794668982572B4A0007D672F /* secondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondController.swift; sourceTree = "<group>"; };
+		7946689B2572B4B4007D672F /* thirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			children = (
 				7906B32C2571025800836900 /* customViewController.swift */,
 				7906B3512571099A00836900 /* pushedController.swift */,
+				794668982572B4A0007D672F /* secondController.swift */,
+				7946689B2572B4B4007D672F /* thirdController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7906B30E2570EE6B00836900 /* AppDelegate.swift in Sources */,
+				7946689C2572B4B4007D672F /* thirdController.swift in Sources */,
 				7906B3102570EE6B00836900 /* SceneDelegate.swift in Sources */,
+				794668992572B4A0007D672F /* secondController.swift in Sources */,
 				7906B3522571099A00836900 /* pushedController.swift in Sources */,
 				7906B32D2571025800836900 /* customViewController.swift in Sources */,
 			);
